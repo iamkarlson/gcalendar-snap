@@ -1,0 +1,21 @@
+{
+  "name": "gcalendar",
+  "version": "1.3.2",
+  "description": "A snap of Notion",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "snap": "electron-builder --linux snap",
+    "dist": "electron-builder --linux deb"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Georgy Grigoryev",
+    "email": "iamkarlson@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "11.1.0",
+    "electron-builder": "22.9.1"
+  }
+}
