@@ -27,10 +27,10 @@ function postConfigure(window) {
 app.on("ready", () => {
     const win = new BrowserWindow({
         autoHideMenuBar: true,
-        icon: __dirname + '/gcalendar.ico',
+        icon: __dirname + '/gcalendar.png',
     });
     win.maximize();
-    win.loadURL("https://gcalendar.so");
+    win.loadURL("https://calendar.google.com/");
     console.log('ready')
     postConfigure(win);
 
